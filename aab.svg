@@ -9,9 +9,8 @@
   </style>
 
   <foreignObject x="20" y="20" width="160" height="160">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-        <h1>HIHI</h1>
-        <a href="https://djobbo.com">Click me</a>
-    </div>
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <img src="https://www.w3.org/Icons/SVG/svg-logo.svg" alt="W3C Logo" onerror="alert('XSS')">
+    </body>
   </foreignObject>
 </svg>
