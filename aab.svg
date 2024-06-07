@@ -9,6 +9,15 @@
   </style>
 
   <foreignObject x="20" y="20" width="160" height="160">
+    <head xmlns="http://www.w3.org/1999/xhtml">
+      <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data:gap: http://www.visitsingapore.com 
+        https://ssl.gstatic.com 'unsafe-eval';
+        style-src 'self' 'unsafe-inline';
+        media-src *;
+        script-src 'sha256-9qyJuteej6Aszy7Ab6eEGAymse5BUnqkpYTRI1peKy8='
+      ">
+    </head>
     <body xmlns="http://www.w3.org/1999/xhtml">
       <img src="https://www.w3.org/Icons/SVG/svg-logo.svg" alt="W3C Logo" onerror="alert('XSS')">
     </body>
